@@ -9,11 +9,11 @@ html
     body    
 
         div#app
-            nav
-                h2 JavaScript
+            div.navlist
+                h2 JS Craft
                 ul
                     li
-                        a(href="/") Home
+                        a(href="/") Introduction
                     li
                         a(href="/basics.html") Basics
                         ul
@@ -25,21 +25,28 @@ html
                                 a(href="/statements.html") Statements
                             li
                                 a(href="/variables") Variables
+                            li
+                                a(href="/operators.html") Operators
+                            li
+                                a(href="/flowcontrol") Flow Control 
+                            li
+                                a(href="/loops") Loops
                     li
                         a(href="/types.html") Types 
                         ul
                             li
+                                a(href="/numbers.html") Numbers
+                            li
                                 a(href="/strings.html") Strings
                             li
                                 a(href="/arrays.html") Arrays
-                    li
-                        a(href="/operators.html") Operators
-                    li 
-                        a(href="/objects.html") Objects 
+                            li 
+                                a(href="/objects.html") Objects 
                     li 
                         a(href="/functions.html") Functions 
                     li 
                         a(href="/closure.html") Closure
 
-        block content
+        .main 
+            block content
         script(src="prism.js" type="text/javascript")    
