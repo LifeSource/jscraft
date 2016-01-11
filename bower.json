@@ -1,0 +1,21 @@
+{
+  "name": "jscraft",
+  "description": "A static web application that allows me to learn and document the JavaScript language and its various components.",
+  "main": "app.js",
+  "authors": [
+    "Kenrick Wu <kenrick.wu@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "prism": "~1.3.0"
+  }
+}

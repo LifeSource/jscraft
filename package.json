@@ -1,0 +1,21 @@
+{
+  "name": "jscraft",
+  "version": "1.0.0",
+  "description": "A static web application that allows me to learn and document the JavaScript language and its various components.",
+  "main": "app.js",
+  "scripts": {
+    "jade": "jade -P views/*.jade -o dist -w",
+    "styles": "stylus -c styles/site.styl -o dist/ -w",
+    "open": "browser-sync start --files='dist/**/*.*' --server dist",
+    "start": "npm-run-all --parallel jade styles open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.11.0",
+    "jade": "^1.11.0",
+    "npm-run-all": "^1.4.0",
+    "stylus": "^0.53.0"
+  }
+}
